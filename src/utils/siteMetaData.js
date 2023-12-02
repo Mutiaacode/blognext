@@ -3,10 +3,10 @@ const siteMetadata = {
     title: 'MutiaDiscoveries | Blog Artikel',
     author: 'MutiaDev',
     headerTitle: 'Next.js Blog',
-    description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
+    description: 'Blog Artikel created with Next.js, Tailwind.css',
     language: 'en-us',
     theme: 'system', // system, dark or light
-    siteUrl: 'https://create-blog-with-nextjs.vercel.app', // your website URL
+    siteUrl: 'https://mutiadiscoveries.my.id', // your website URL
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'mutiacode@gmail.com', 
