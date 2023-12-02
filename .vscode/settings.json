@@ -1,0 +1,6 @@
+{
+    "vscode_custom_css.imports": [
+        "file:///D:/blogweb/nextjs-blog/custom/custom-style.css"
+    ],
+    "editor.wordWrap": "on"
+}

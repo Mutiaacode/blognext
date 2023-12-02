@@ -1,0 +1,107 @@
+---
+title: "Memahami CSS: Membentuk Estetika dan Tampilan Halaman Web"
+description: "CSS, atau Cascading Style Sheets, adalah bahasa gaya yang digunakan untuk mendesain dan mempercantik tampilan elemen HTML di halaman web."
+image: "../../public/blogs/css.jpg"
+publishedAt: "2022-11-12"
+updatedAt: "2022-11-12"
+author: "Mutia"
+isPublished: true
+tags:
+- css
+- web development
+---
+
+CSS, atau Cascading Style Sheets, adalah bahasa gaya yang digunakan untuk mendesain dan mempercantik tampilan elemen HTML di halaman web. Dengan CSS, Anda dapat mengendalikan warna, tata letak, dan gaya lainnya untuk menciptakan pengalaman pengguna yang menarik dan konsisten. Berikut adalah penjelasan mendalam tentang CSS:
+
+## 1. Fungsi Utama CSS:
+Presentasi Visual: CSS digunakan untuk memisahkan struktur konten (HTML) dari tampilan dan gaya. Ini memungkinkan pengembang untuk memberikan desain yang konsisten dan mudah dikelola.
+
+Responsif: CSS memungkinkan pengembang membuat halaman web responsif, yang dapat menyesuaikan tampilan dengan perangkat pengguna, seperti layar ponsel atau tablet.
+
+## 2. Sintaks CSS:
+Selector: Menentukan elemen HTML yang akan diberi gaya.
+
+```css showLineNumbers {1-3} /science/ title="style.css" caption=""
+body {
+    font-family: 'Arial', sans-serif;
+}
+```
+Properti: Menentukan gaya atau sifat yang akan diberikan kepada elemen.
+
+```css showLineNumbers {1-4} /science/ title="style.css" caption=""
+bh1 {
+    color: #3498db;
+    text-align: center;
+}
+```
+
+Nilai: Nilai yang akan diberikan pada properti.
+
+```css showLineNumbers {1-4} /science/ title="style.css" caption=""
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+```
+
+## 3. Selektor CSS:
+Elemen Selektor: Memilih elemen berdasarkan jenis elemen HTML.
+
+```css showLineNumbers {1-3} /science/ title="style.css" caption=""
+p {
+    font-size: 16px;
+}
+```
+ID Selektor: Memilih elemen berdasarkan ID.
+
+```css showLineNumbers {1-3} /science/ title="style.css" caption=""
+#header {
+    background-color: #2ecc71;
+}
+```
+Kelas Selektor: Memilih elemen berdasarkan kelas.
+
+```css showLineNumbers {1-4} /science/ title="style.css" caption=""
+.button {
+    padding: 10px;
+    background-color: #e74c3c;
+}
+```
+
+## 4. Box Model:
+Content: Bagian isi elemen.
+Padding: Ruang di antara isi dan batas elemen.
+Border: Garis batas elemen.
+Margin: Ruang di antara batas elemen dan elemen lainnya.
+
+## 5. CSS Flexbox dan Grid:
+Flexbox: Sistem tata letak yang memungkinkan penataan elemen dalam baris atau kolom dengan responsif.
+
+```css showLineNumbers {1-4} /science/ title="style.css" caption=""
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+```
+Grid: Sistem tata letak dua dimensi yang memungkinkan penempatan elemen dalam grid.
+
+```css showLineNumbers {1-4} /science/ title="style.css" caption=""
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+```
+## 6. Transisi:
+Transisi: Mengubah properti elemen secara halus selama periode waktu tertentu.
+
+```css showLineNumbers {1-7} /science/ title="style.css" caption=""
+..box {
+    transition: transform 0.5s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+```
+
+CSS adalah alat yang kuat untuk meningkatkan estetika dan fungsionalitas halaman web. Dengan memahami prinsip-prinsip ini, Anda dapat membuat tata letak yang responsif, menarik, dan konsisten di seluruh situs Anda.

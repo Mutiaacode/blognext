@@ -1,0 +1,78 @@
+---
+title: "Menyusuri Dunia Programming dengan PHP"
+description: "PHP (Hypertext Preprocessor) adalah bahasa pemrograman server-side yang sangat populer, khususnya untuk pengembangan web dinamis dan aplikasi."
+image: "../../public/blogs/php.jpg"
+publishedAt: "2023-11-29"
+updatedAt: "2023-11-29"
+author: "Mutia"
+isPublished: true
+tags:
+- php
+- web development
+---
+
+PHP (Hypertext Preprocessor) adalah bahasa pemrograman server-side yang sangat populer, khususnya untuk pengembangan web dinamis dan aplikasi. Dengan fokus pada kemudahan penggunaan dan kemampuan integrasi yang kuat, PHP telah menjadi salah satu alat yang paling penting dalam dunia pengembangan web. Artikel ini akan membahas dasar-dasar programming dengan PHP, mencakup variabel, kontrol alur, fungsi, dan database.
+
+## Apa Itu PHP?
+PHP adalah bahasa scripting server-side yang dirancang untuk membuat halaman web dinamis. PHP dijalankan di server web dan menghasilkan HTML yang dikirim ke browser pengguna. Dengan kata lain, PHP memungkinkan Anda membuat halaman web yang dapat berinteraksi dengan pengguna dan mengakses database.
+
+## Dasar-Dasar PHP:
+1. Variabel dan Tipe Data:
+Deklarasikan variabel dengan awalan dollar sign ($) dan tentukan tipe data secara otomatis.
+
+```php showLineNumbers {1-3} /science/ title="javascript" caption="variabel"
+$nama = "John";
+$umur = 25;
+$isAct
+```
+## 2. Pengulangan dan Percabangan:
+Gunakan pernyataan for, while, dan if untuk mengontrol alur program.
+
+```php showLineNumbers {1-9} /science/ title="javascript" caption="variabel"
+for ($i = 0; $i < 5; $i++) {
+  echo $i;
+}
+
+if ($umur >= 18) {
+  echo "Sudah dewasa!";
+} else {
+  echo "Masih di bawah umur.";
+}
+```
+## 3. Fungsi:
+Tentukan dan panggil fungsi untuk memecah program menjadi bagian-bagian yang lebih kecil
+
+```php showLineNumbers {1-6} /science/ title="javascript" caption="variabel"
+function tambah($a, $b) {
+  return $a + $b;
+}
+
+$hasil = tambah(3, 5);
+echo $hasil;  // Output: 8
+```
+## 4. Koneksi Database:
+PHP sering digunakan untuk berinteraksi dengan database. Gunakan ekstensi seperti MySQLi atau PDO untuk menghubungkan PHP dengan database MySQL atau jenis database lainnya.
+
+```php showLineNumbers {1-7} /science/ title="javascript" caption="variabel"
+$koneksi = new mysqli("localhost", "username", "password", "database");
+
+if ($koneksi->connect_error) {
+  die("Koneksi gagal: " . $koneksi->connect_error);
+}
+
+// Lakukan operasi database di sini...
+```
+## Sumber Daya dan Lanjutan:
+Dokumentasi PHP resmi di php.net.
+W3Schools PHP Tutorial untuk pemula.
+PHP: The Right Way sebagai panduan yang lebih mendalam.
+Dengan pemahaman dasar-dasar PHP, Anda dapat membuat situs web dinamis yang interaktif dan efisien. Teruslah eksplorasi, coba proyek-proyek kecil, dan manfaatkan sumber daya online untuk meningkatkan keterampilan programming PHP Anda. Selamat mengoding!
+
+
+
+
+
+
+
+
+

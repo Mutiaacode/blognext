@@ -1,0 +1,11 @@
+.action-label.icon {
+    background-color: red !important;
+}
+
+.action-label.icon.hide.codicon {
+    background-color: yellow !important;
+}
+
+.action-label.icon.hide:empty.codicon {
+    background-color: green !important;
+}
