@@ -84,7 +84,7 @@ const Footer = () => {
         >
         </Link>
         <div className="text-center">
-            CodeBucks
+            ❤️
         </div>
       </div>
     </footer>
